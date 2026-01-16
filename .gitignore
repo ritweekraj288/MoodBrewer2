@@ -1,26 +1,23 @@
-# ===== Python =====
+# === Node / Frontend ===
+node_modules/
+.next/
+out/
+.env
+*.log
+.DS_Store
+
+# === Python / Backend ===
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# ML models
+venv/
+env/
+*.db
+*.sqlite3
 *.pkl
 
-# ===== Environment variables =====
-.env
-.env.local
-.env.production
-
-# ===== Node / Next.js =====
-node_modules/
-.next/
-out/
-
-# ===== OS / Editor =====
-.DS_Store
-.vscode/
+# === General ===
 .idea/
-
-# ===== Logs =====
-*.log
+.vscode/
+*.swp
